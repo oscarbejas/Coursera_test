@@ -80,31 +80,34 @@ p.par {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
 	.col-lg-4 {
 		border: 1px black;
 		margin-right: 10px;
 		float: left;
-		width: 30%;
-		object-position: center;
+		width: 29.9%;
 	}
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-2 {
+		border: 1px solid black;
 		margin: 10px;
 		float: left;
-		border-color: 1px black
-		width: 45%
+		border-color: 1px black;
+		width: 43%;
 	}
 	.sushi {
-		width: 887px;
+		border: 1px solid black
+		width: 88.5%;
+		float: left;	
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
 	.col-sm-12 {
 		margin-right: 90px;
+		margin-bottom: 10px;
 	}
 
 }
