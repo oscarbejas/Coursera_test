@@ -94,13 +94,10 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	#header-nav {
 		padding-bottom: 50px;
+	}
 }
 /*** Small Screens ***/
 @media (min-width: 768px) and (max-width: 991px) {
-	.visible-xmd {
-		display: block !important;
-	}
-
 	#collapsable-nav {
 		padding-bottom: 50px;
 	}
@@ -128,13 +125,13 @@
 		background: url("../images/TrollFace.jpg");	
 	}
 
-	#collapsable-nav a { /* Collapsed nav menu text */
+	#collapsable-nav a {
     	font-size: 1.8em;
     	color: red;
     	font-weight: bold;
  	}
 
-  	#collapsable-nav a span { /* Collapsed nav menu glyph */
+  	#collapsable-nav a span {
     	font-size: 1.5em;
     	margin-right: 5px;
   }
